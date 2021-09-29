@@ -10,7 +10,7 @@ GAN을 이용한 재난영상 생성 결과 정리
 #### 또한 Augmentation을 적용하지 않았을 경우 모드붕괴(Mode Collapse) 현상이 발견됨
 ###### 해상도 : (128x128)
 | Augmentation X | Augmentation(flip, transfer, rotate) | 
-| ------- | :------ |
+| :------: | :------: |
 | ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/DCGAN%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A6%9D%EA%B0%95%20X%EA%B2%B0%EA%B3%BC%20128x128.png) | ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/DCGAN%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A6%9D%EA%B0%95_filp_transfer_rotate%20%EA%B2%B0%EA%B3%BC%20128x128.png) |
 
 ###### -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -30,7 +30,7 @@ GAN을 이용한 재난영상 생성 결과 정리
 #### 실제 영상 VS DCGAN 생성 영상
 ###### 해상도 : (256x256),(128x128),(64x64)
 | Real Image | DCGAN Image | 
-| ------- | :------ |
+| :------: | :------: |
 | ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/%EC%8B%A4%EC%A0%9C%20%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%99%80%20DCGAN%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%B9%84%EA%B5%90_%EC%8B%A4%EC%A0%9C.png) | ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/%EC%8B%A4%EC%A0%9C%20%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%99%80%20DCGAN%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%B9%84%EA%B5%90.png) |
 
 ----------------
@@ -38,13 +38,13 @@ GAN을 이용한 재난영상 생성 결과 정리
 #### 실제 영상 VS StyleGAN2 생성 영상
 ###### 해상도 : (256x256),(128x128),(64x64)
 | Real Image | StyleGAN2 Image | 
-| ------- | :------ |
+| :------: | :------: |
 | ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/%EC%8B%A4%EC%A0%9C%20%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%99%80%20DCGAN%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%B9%84%EA%B5%90_%EC%8B%A4%EC%A0%9C.png) | ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/%EC%8B%A4%EC%A0%9C%20%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%99%80%20stylegan2%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%B9%84%EA%B5%90.png) |
 
 #### DCGAN VS StyleGAN2 생성 영상
 ###### 해상도 : (256x256),(128x128),(64x64)
 | DCGAN Image | StyleGAN2 Image | 
-| ------- | :------ |
+| :------: | :------: |
 | ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/%EC%8B%A4%EC%A0%9C%20%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%99%80%20DCGAN%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%B9%84%EA%B5%90.png) | ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/%EC%8B%A4%EC%A0%9C%20%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%99%80%20stylegan2%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%B9%84%EA%B5%90.png) |
 
 ###### -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -53,7 +53,7 @@ GAN을 이용한 재난영상 생성 결과 정리
 ##### 기존 방법(건물화재 데이터셋만 이용)과 Fine-tuning 방법(건물 데이터셋으로 사전학습 후 건물화재 데이터셋으로 재학습)에 따른 비교
 ###### 해상도 : (512x512)
 | 기존 방법 | Fine-tuning | 
-| ------- | :------ |
+| :------: | :------: |
 | ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/fine-tuning%20%EC%A0%84%ED%9B%84%EB%B9%84%EA%B5%901.png) | ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/fine-tuning%20%EC%A0%84%ED%9B%84%EB%B9%84%EA%B5%902.png) |
 | ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/fine-tuning%20%EC%A0%84%ED%9B%84%EB%B9%84%EA%B5%90-%EC%A7%80%EC%A7%841.png) | ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/fine-tuning%20%EC%A0%84%ED%9B%84%EB%B9%84%EA%B5%90-%EC%A7%80%EC%A7%842.png) |
 
@@ -107,3 +107,6 @@ GAN을 이용한 재난영상 생성 결과 정리
 
 #### 방법2 (A:교회, B:건물화재)
 ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/%EB%B0%A9%EB%B2%952.gif)
+
+
+###### 실험결과 A는 교회로, B는 건물 화재로 한 경우가 교회에 불이 붙는 결과가 생성되는것을 확인할 수 있었다. 
