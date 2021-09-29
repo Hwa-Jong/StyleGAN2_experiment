@@ -100,8 +100,8 @@ GAN을 이용한 재난영상 생성 결과 정리
 #### 교회 데이터셋을 사용한 Style Mixing
 ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/%ED%99%8D%EC%88%98%20%EC%B5%9C%EC%A2%85%EA%B2%B0%EA%B3%BC%20best%20512x512.png)
 
-#### 방법1 (A:교회, B:건물화재)
+#### 방법1 (A:건물화재, B:교회)
 ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/%ED%99%8D%EC%88%98%20%EC%B5%9C%EC%A2%85%EA%B2%B0%EA%B3%BC%20best%20512x512.png)
 
-#### 방법2 (A:건물화재, B:교회)
+#### 방법2 (A:교회, B:건물화재)
 ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/%ED%99%8D%EC%88%98%20%EC%B5%9C%EC%A2%85%EA%B2%B0%EA%B3%BC%20best%20512x512.png)
