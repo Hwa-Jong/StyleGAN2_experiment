@@ -13,7 +13,7 @@ GAN을 이용한 재난영상 생성 결과 정리
 | ------- | :------ |
 | ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/DCGAN%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A6%9D%EA%B0%95%20X%EA%B2%B0%EA%B3%BC%20128x128.png) | ![](https://github.com/Hwa-Jong/StyleGAN2_experiment/blob/main/imgs/DCGAN%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A6%9D%EA%B0%95_filp_transfer_rotate%20%EA%B2%B0%EA%B3%BC%20128x128.png) |
 
-###### ---------------------
+###### ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### GAN에서 사용되는 Augmentation 기법 적용 ([Differentiable Augmentation for Data-Efficient GAN Training](https://arxiv.org/pdf/2006.10738.pdf))
 ##### 실제 영상 VS DCGAN 생성 영상 ( 건물 화재 )
