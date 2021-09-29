@@ -5,6 +5,11 @@ GAN을 이용한 재난영상 생성 결과 정리
 
 # GAN을 이용한 재난영상 생성
 ## [DCGAN](https://arxiv.org/pdf/1511.06434.pdf)을 사용한 재난 영상 생성
+
+#### 재난 데이터셋 
+| 재난 종류 | :------: | 건물 화재 | 산불 | 지진 | 홍수 | 
+| 데이터 수 | :------: | 472 | 1033 | 833 | 1033 | 
+
  
 #### Classification에서 사용하는 Augmentation을 적용한 결과 Augmentation이 적용된 영상이 생성됨
 #### 또한 Augmentation을 적용하지 않았을 경우 모드붕괴(Mode Collapse) 현상이 발견됨
