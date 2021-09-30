@@ -100,7 +100,7 @@ GAN을 이용한 재난영상 생성 결과 정리
 
 ----------------
 
-# 추가실험
+# 연구 종료 후 추가 실험
 ## StyleGAN2의 Mixing Regularization 응용
 
 #### StyleGAN2 Architecture
